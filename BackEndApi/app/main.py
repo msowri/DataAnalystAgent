@@ -1,0 +1,19 @@
+from fastapi import  FastAPI
+from fastapi.middleware.cors import  CORSMiddleware
+from app.routers import testrouter
+
+
+app= FastAPI(
+title="Backend API",
+    description="This API powers the Learning App .",
+    version="1.0.0",    
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],)
+
+# include routers
+app.include_router(testrouter.router, prefix="/api")
