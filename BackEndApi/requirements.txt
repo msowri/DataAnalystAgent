@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+psycopg2-binary
+alembic
+pydantic[email]
+python-dotenv
+openpyxl
+python-multipart
+dnspython
+pandas
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+huggingface_hub
+sentence-transformers
+
+#pip install fastapi uvicorn[standard] sqlalchemy psycopg2 pydantic[email] alembic
+#python.exe -m pip install --upgrade pip

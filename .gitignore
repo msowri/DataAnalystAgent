@@ -137,3 +137,82 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+#python 
+# -----------------------------
+# Python / FastAPI base ignores
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Logs
+*.log
+uvicorn.log
+
+# -----------------------------
+# Environment & config
+# -----------------------------
+.env
+.env.*
+*.secret
+config.json
+
+# -----------------------------
+# Databases / cache
+# -----------------------------
+*.db
+*.sqlite3
+alembic/versions/__pycache__/
+
+# -----------------------------
+# Testing & coverage
+# -----------------------------
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+htmlcov/
+.tox/
+.nox/
+
+# -----------------------------
+# IDE / editor settings
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# -----------------------------
+# Jupyter notebooks (if used)
+# -----------------------------
+.ipynb_checkpoints
+
+# -----------------------------
+# OS specific
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+*.bat
