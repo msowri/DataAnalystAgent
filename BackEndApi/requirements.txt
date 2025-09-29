@@ -21,3 +21,7 @@ langchain-google-genai
 matplotlib
 #pip install fastapi uvicorn[standard] sqlalchemy psycopg2 pydantic[email] alembic
 #python.exe -m pip install --upgrade pip
+
+#pip install pytest pytest-asyncio
+pytest
+pytest-asyncio
