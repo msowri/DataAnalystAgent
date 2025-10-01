@@ -11,8 +11,7 @@ router = APIRouter(
 @router.post("/upload-and-process")
 async def upload_and_process(files: List[UploadFile] = File(...)):
     """
-    Upload multiple files including questions.txt, CSV/XLSX files.
-    Returns processed answers for each question including base64 scatterplots if needed.
+    Upload multiple files including questions.txt, CSV/XLSX files.   
     """
     try:
         FileUploadService.reset_environment()     
