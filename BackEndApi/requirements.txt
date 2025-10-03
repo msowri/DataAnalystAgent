@@ -25,3 +25,10 @@ matplotlib
 #pip install pytest pytest-asyncio
 pytest
 pytest-asyncio
+pyarrow
+pillow 
+scipy 
+PyPDF2
+
+
+#pip install duckdb pandas pyarrow pillow matplotlib scipy beautifulsoup4 requests langchain-community PyPDF2

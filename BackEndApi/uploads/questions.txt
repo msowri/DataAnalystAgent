@@ -1,10 +1,8 @@
-Scrape the list of highest grossing films from Wikipedia. It is at the URL:
-https://en.wikipedia.org/wiki/List_of_highest-grossing_films
+https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals
 
-Answer the following questions and respond with a JSON array of strings containing the answer.
+Answer the following questions
 
-1. How many $2 bn movies were released before 2000?
-2. Which is the earliest film that grossed over $1.5 bn?
-3. What's the correlation between the Rank and Peak?
-4. Draw a scatterplot of Rank and Peak along with a dotted red regression line through it.
-   Return as a base-64 encoded data URI, `"data:image/png;base64,iVBORw0KG..."` under 100,000 bytes.
+1. Which country won the first FIFA World Cup?
+2. How many times has Brazil won the World Cup?
+3. Which team was the runner-up in 2014?
+4. Plot Year vs Goals scored in the final match. 
