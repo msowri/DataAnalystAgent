@@ -32,6 +32,8 @@ env_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 
 if os.path.exists(env_path):
     load_dotenv(dotenv_path=env_path)
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+#test
+GOOGLE_API_KEY  = "AIzaSyCp2plOqye5CkL-N23OPJz_bv9Cxbm2oe0"
 
 embedding_model = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
