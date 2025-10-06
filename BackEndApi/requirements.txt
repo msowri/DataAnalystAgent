@@ -15,6 +15,20 @@ langchain-core
 langchain-huggingface
 huggingface_hub
 sentence-transformers
-
+duckdb 
+beautifulsoup4
+langchain-google-genai
+matplotlib
 #pip install fastapi uvicorn[standard] sqlalchemy psycopg2 pydantic[email] alembic
 #python.exe -m pip install --upgrade pip
+
+#pip install pytest pytest-asyncio
+pytest
+pytest-asyncio
+pyarrow
+pillow 
+scipy 
+PyPDF2
+
+
+#pip install duckdb pandas pyarrow pillow matplotlib scipy beautifulsoup4 requests langchain-community PyPDF2

@@ -216,3 +216,8 @@ htmlcov/
 Thumbs.db
 
 *.bat
+BackEndApiNew/*
+
+BackEndApi/uploads/*
+BackEndApi/database/*
+

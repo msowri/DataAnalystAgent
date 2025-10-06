@@ -1,0 +1,8 @@
+https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_finals
+
+Answer the following questions
+
+1. Which country won the first FIFA World Cup?
+2. How many times has Brazil won the World Cup?
+3. Which team was the runner-up in 2014?
+4. Plot Year vs Goals scored in the final match. 
