@@ -10,6 +10,9 @@ title="Backend API",
     description="This API powers the Learning App .",
     version="1.0.0",    
 )
+@app.get("/")
+def read_root():
+    return {"status": "running"}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
