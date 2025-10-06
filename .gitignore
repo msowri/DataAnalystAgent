@@ -221,3 +221,5 @@ BackEndApiNew/*
 BackEndApi/uploads/*
 BackEndApi/database/*
 
+BackEndApi/database/vectordb.duckdb
+BackEndApi/uploads/questions.txt
