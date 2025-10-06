@@ -2,7 +2,7 @@ from fastapi import  FastAPI
 from fastapi.middleware.cors import  CORSMiddleware
 from app.routers import testrouter
 from app.routers.fileuploadrouter import router as fileupload_router
-
+import uvicorn
 
 
 app= FastAPI(
@@ -23,3 +23,14 @@ app.add_middleware(
 # include routers
 app.include_router(testrouter.router, prefix="/api")
 app.include_router(fileupload_router, prefix="/api")
+
+if __name__ == "__main__":
+    import os
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=port,
+        reload=False,       # disable reload for production
+        log_level="info"    # useful for debugging
+    )
