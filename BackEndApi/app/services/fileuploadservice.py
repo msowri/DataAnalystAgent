@@ -443,11 +443,7 @@ class FileUploadService:
     @staticmethod
     def process_questions(saved_files: Dict[str, str]) -> List[List[Any]]:
         """
-        Main flow:
-         - find questions.txt in saved_files
-         - if questions.txt contains URL(s) => fetch those pages and embed (only those)
-         - else => ask LLM which uploaded files to embed; embed chosen files (fallback to all)
-         - then proceed to read questions, retrieve from DB, ask LLM to answer, optionally generate plots
+        redploy test
         """
         results: List[List[Any]] = []
         try:
